@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">ir al curso</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Mi nombre -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>Julio Waissman Vilanova</h2>
+                </header>
+                <p>Horario: Lunes a viernes de 12:00 a 13:00 horas</p>
+                <p>Localización: Laboratorio 201, edificio 3K-4, Departamento de Matemáticas</p>
+                <p>Asesorías: Cubículo 1, edificio 3K-4, Departamento de Matemáticas</p>
+            </div>
+        </section>
+
+        <!-- One -->
+        {% include tiles.html %}
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>El Jardín de las delicias</h2>
+                </header>
+                <p>{{ content }}</p>
+            </div>
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

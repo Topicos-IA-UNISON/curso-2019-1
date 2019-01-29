@@ -1,0 +1,43 @@
+# site settings
+title: TA-IA@UNISON
+subtitle: Licenciatura en Ciencias de la Computación
+email: julio.waissman@unison.mx
+description: Departamento de Matemáticas, Lic. en Ciencias de la Computación
+baseurl: "/curso-2019-1" # the subpath of your site, e.g. /blog
+url: https://topicos-ia-unison.github.io # the base hostname & protocol for your site
+author: Julio Waissman Vilanova
+institucion: Universidad de Sonora
+departamento: Departamento de Matemáticas
+street_address: Blvd. Encinas y Rosales s/n
+city: Hermosillo
+state: Sonora
+zip_code: 83000
+country: México
+phone: (716) 555-5555
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 4
+
+# contact form settings
+form_url: https://formspree.io/julio.waissman@unison.mx # endpoint URL to receive contact form submissions
+form_email_name: _replyto # value of the "name" attribute in the "email" field
+
+# social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url:
+pinterest_url:
+slack_url:
+twitter_url:
+
+# build settings
+markdown: kramdown
+encoding: UTF-8
+
+sass:
+  style: compressed
