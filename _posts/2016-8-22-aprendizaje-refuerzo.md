@@ -35,21 +35,35 @@ vista complementario para entender la notación usual.
 Programar en golang los siguientes ejemplos y ejercicios del libro de *Sutton y Barto*:
 
 1. Programación dinámica
+
    a. Iteración de políticas: 
-       - Ejemplo 4.2: *Jack's Car Rental*
-       - Ejercicio 4.7: Variación del problema *Jack's Car Rental**
+
+      - Ejemplo 4.2: *Jack's Car Rental*
+      
+      - Ejercicio 4.7: Variación del problema *Jack's Car Rental**
+
    b. Iteración de valores:
-       - Ejemplo 4.3: El problema del jugador
-       - Ejercicio 4.8: Discute los resultados de la política obtenida en el ejercicio anterior
-       - Ejercicio 4.9: Variaciones del problema del jugador
+   
+      - Ejemplo 4.3: El problema del jugador
+      
+      - Ejercicio 4.8: Discute los resultados de la política obtenida en el ejercicio anterior
+      
+      - Ejercicio 4.9: Variaciones del problema del jugador
        
 2. Aprendizaje por refuerzo: métodos tabulares
+
    a. Algoritmo SARSA:
+   
       - Ejemplo 6.5: *Windy Gridworld*
+      
       - Ejercicio 6.9: *Windy Gridworld* con movimiento de rey
+      
       - Ejercicio 6.10: *Windy Gridworld* estocástico
+      
    b. Algoritmo Q-Learning (QL)
+   
       - Ejemplo 6.6: *Cliff Walking*
+      
       - Ejercicio 6.12: Pregunta interesante para ver con el problema *Cliff Walking*
       
 3. Aprendizaje por refuerzo: métodos aproximados
