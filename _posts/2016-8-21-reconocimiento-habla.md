@@ -43,6 +43,7 @@ Los temas a tratar en el curso (utilizando material proveniente del curso de rec
 5. What is the name for the atomic unit of speech sound? 
 
 6. Which of these is a common measure of statistical significance for speech recognition? (Choose One)
+
   a) Student-t Test
   b) Chi-Squared Test
   c) Matched Pairs Test
